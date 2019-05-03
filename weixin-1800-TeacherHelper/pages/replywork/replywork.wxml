@@ -1,0 +1,23 @@
+<view>
+  <view class='work-img'>
+    <view class='no-sum' hidden='{{images.length > 0}}'>
+      <view class='no-sum-img' bindtap='addphoto'> 
+        <image class='nsi-a' src='../../image/addimg.png'></image>
+      </view>
+      <view class='no-sum-text'>添加图片</view>
+    </view>
+    <view class='no-sum2'  hidden='{{images.length == 0}}'>
+      <swiper autoplay='false' class='img-swiper' interval='1000000'>
+        <block wx:for="{{images}}" wx:key="index">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" mode='aspectFill'/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+
+  <textarea type='text' class='replytip' placeholder='在此输入题解'  placeholder-class='pclass' maxlength='300' bindinput='inputcon'></textarea>
+
+  <view class='work-submit' bindtap='submitreply'>点击提交</view>
+</view>

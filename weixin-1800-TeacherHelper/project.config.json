@@ -1,0 +1,110 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.2",
+	"appid": "wx27a6dd60ecdc6b3a",
+	"projectname": "weixin-1800-TeacherHelper",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "homework",
+					"pathName": "pages/homework/homework",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "creatwork",
+					"pathName": "pages/creatwork/creatwork",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "codedisplay",
+					"pathName": "pages/codedisplay/codedisplay",
+					"query": "code=asdf",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "worklist",
+					"pathName": "pages/worklist/worklist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "replywork",
+					"pathName": "pages/replywork/replywork",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "worklist",
+					"pathName": "pages/worklist/worklist",
+					"query": "homeworks = [{},{},{},{}]",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "democlass",
+					"pathName": "pages/democlass/democlass",
+					"query": "searchword=uybx",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

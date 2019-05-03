@@ -1,0 +1,16 @@
+<view>
+  <view class='work-img' hidden='{{!hasimage}}'>
+    <swiper indicator-dots="false" indicator-active-color="#64B4FF" autoplay='false' class='img-swiper' interval='1000000'>
+      <block wx:for="{{images}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item}}" data-src="{{item}}" class="slide-image" bindtap='previewImage' mode='aspectFill'/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='work-tip-a'>题目</view>
+  <view class='work-tip'>{{homework.topic}}</view>
+  <view class='work-con-a'>作业内容</view>
+  <view class='work-con'>{{homework.content}}</view>
+  <view class='work-submit' bindtap='rowrite'>开始写作业</view>
+</view>

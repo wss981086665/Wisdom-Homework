@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myself/myself",
+    "pages/login/login",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/homework/homework",
+    "pages/creatwork/creatwork",
+    "pages/myhomework/myhomework",
+    "pages/passwork/passwork",
+    "pages/myclass/myclass",
+    "pages/codedisplay/codedisplay",
+    "pages/worklist/worklist",
+    "pages/replywork/replywork",
+    "pages/listwork/listwork",
+    "pages/listanswer/listanswer",
+    "pages/answer-detail/answer-detail",
+    "pages/creatclass/creatclass",
+    "pages/apply-teacher/apply-teacher",
+    "pages/creatclass-tip/creatclass-tip",
+    "pages/democlass/democlass",
+    "pages/classiddisplay/classiddisplay",
+    "pages/searchclass/searchclass",
+    "pages/classlist/classlist",
+    "pages/listwork-self/listwork-self",
+    "pages/listwork-class/listwork-class",
+    "pages/listStudent/listStudent"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#6A5ACD"
+  },
+  "tabBar": {
+    "selectedColor": "#6A5ACD",
+    "color": "#8D8D8D",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "image/主页.png",
+        "selectedIconPath": "image/in主页.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "image/我的.png",
+        "selectedIconPath": "image/in我.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

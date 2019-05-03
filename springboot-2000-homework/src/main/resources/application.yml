@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    username: admin
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.106.242.51:3306/MySQL1
+
+    schema:
+     - classpath:sql/homework.sql
+     - classpath:sql/forumuser.sql
+     - classpath:sql/reply.sql
+     - classpath:sql/teacher.sql
+     - classpath:sql/democlass.sql
+     - classpath:sql/relation.sql
+     - classpath:sql/user.sql
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+server:
+  port: 8082
+  ssl:
+      key-store: classpath:1343113_www.xztywss.top.pfx
+      key-store-password: 240zF50I
+      key-store-type: PKCS12

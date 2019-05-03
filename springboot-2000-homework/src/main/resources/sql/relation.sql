@@ -1,0 +1,22 @@
+alter table relation AUTO_INCREMENT=1;
+
+-- SET FOREIGN_KEY_CHECKS=0;
+--
+-- ----------------------------
+-- Table structure for relation
+-- ----------------------------
+-- DROP TABLE IF EXISTS `relation`;
+-- CREATE TABLE `relation` (
+--   `id` int(11) NOT NULL AUTO_INCREMENT,
+--   `openid` varchar(50) DEFAULT NULL,
+--   `truename` varchar(50) DEFAULT NULL,
+--   `classid` varchar(50) DEFAULT NULL,
+--   `topenid` varchar(50) DEFAULT NULL,
+--   `tavatarUrl` varchar(255) DEFAULT NULL,
+--   `con1` varchar(255) DEFAULT NULL,
+--   `con2` varchar(255) DEFAULT NULL,
+--   `con3` varchar(255) DEFAULT NULL,
+--   `con4` varchar(255) DEFAULT NULL,
+--   `con5` varchar(255) DEFAULT NULL,
+--   PRIMARY KEY (`id`)
+-- ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;

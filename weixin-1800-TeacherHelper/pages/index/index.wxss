@@ -1,0 +1,117 @@
+/**index.wxss**/
+.seachcontainer{
+  width: 90%;
+  height: 70rpx;
+  background-color: rgb(240, 240, 240);
+  margin: 0 auto;
+  margin-top: 15rpx;
+  text-align: center;
+  line-height: 70rpx;
+  color: #9b9b9b;
+  border-radius: 35rpx;
+}
+.container{
+  width: 90%;
+  height: 200rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow: 0 0 10rpx 0  rgb(199, 199, 199);
+}
+.conbar{
+  width: 24%;
+  height: 49%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.con-img{
+  width: 50%;
+  height: 80%;
+  margin-left: 25%;
+  margin-top: 30rpx;
+}
+.con-text{
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 15px;
+  color: #868686;
+  text-align: center;
+}
+.bottom-con{
+  width: 90%;
+  height: 80rpx;
+  margin-top: 20rpx;
+  line-height: 50rpx;
+  padding-left: 15rpx;
+  overflow: hidden;
+  border-left: 8rpx solid rgb(0, 167, 0);
+}
+.bc-left{
+  /* width: 25%; */
+  height: 100%;
+  float: left;
+}
+.bcf-top{
+  width: 100%;
+  height: 45rpx;
+  line-height: 45rpx;
+}
+.bcf-bottom{
+  width: 100%;
+  margin-top: 5rpx;
+  height: 25rpx;
+  line-height: 25rpx;
+  font-size: 12px;
+}
+.bc-right{
+  width: 74rpx;
+  height: 74rpx;
+  margin-left: 15rpx;
+  margin-top: 2rpx;
+  border-radius: 50%;
+  animation: demo1 10s linear infinite;
+}
+.nowork{
+  width: 50%;
+  height: 350rpx;
+  margin: 0 auto;
+  margin-top: 80rpx;
+}
+.nohome-img{
+  width: 100%;
+  height: 100%;
+}
+.nohome-text{
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  color: #dddddd;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 60rpx;
+}
+@keyframes demo1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

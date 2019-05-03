@@ -1,0 +1,27 @@
+<view>
+  <view class='work-img'>
+    <view class='no-sum' hidden='{{images.length > 0}}'>
+      <view class='no-sum-img' bindtap='addphoto'> 
+        <image class='nsi-a' src='../../image/addimg.png'></image>
+      </view>
+      <view class='no-sum-text'>添加图片</view>
+    </view>
+    <view class='no-sum2'  hidden='{{images.length == 0}}'>
+      <swiper indicator-dots="false" indicator-active-color="#64B4FF" autoplay='false' class='img-swiper' interval='1000000'>
+        <block wx:for="{{images}}" wx:key="index">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" mode='aspectFill'/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <input type='text' class='work-tip' placeholder='题目' placeholder-class='pclass' maxlength='8' bindinput='inputtip'></input>
+  <textarea class='work-con' placeholder='题目描述' placeholder-class='pclass' maxlength='300' bindinput='inputcon'></textarea>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{classnames}}">
+    <view class="picker">
+      课程：{{classname}}
+    </view>
+  </picker>
+  <view class='work-submit' bindtap='worksubmit'>发布</view>
+</view>

@@ -1,0 +1,134 @@
+.top{
+  width: 100%;
+  height: 180rpx;
+  padding-top: 30rpx;
+  padding-bottom: 50rpx;
+  background-color: #6A5ACD;
+}
+.userinfo{
+  /* background: url("http://www.xztywss.top/img/luntan/topimg.jpg"); */
+  background-size: 100% 100%;
+}
+.head{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-left: 60rpx;
+  float: left;
+  border: 7rpx solid rgb(216, 216, 216);
+}
+.headimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.username {
+  width: 450rpx;
+  height: 40%;
+  font-size: 20px;
+  line-height: 70rpx;
+  float: left;
+  /* color: rgb(58, 58, 58); */
+  color: white;
+  font-weight: 700;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+.autograph{
+  width: 400rpx;
+  height: 30%;
+  float: left;
+  font-size: 12px;
+  color: white;
+  margin-left: 30rpx;
+}
+.autograph-text{
+  width: 100%;
+  height: 100%;
+}
+.middle-con{
+  width: 94%;
+  height: 180rpx;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  margin-top: -20px;
+  margin-bottom: 20rpx;
+  box-shadow: 0 0 1px #B4B4B4;
+  overflow: hidden
+}
+.middle{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10rpx;
+  /* margin-top: 10rpx; */
+  background-color: white;
+  margin-bottom: 10rpx;
+  border-radius: 10rpx;
+}
+.middle-button{
+  border-radius: 10rpx;
+}
+.middles{
+  width: 31%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.middle-img {
+  width: 30%;
+  height: 70rpx;
+  margin-left: 34%;
+  border-radius: 10rpx;           
+  margin-top: 40rpx;
+  opacity: 0.8;
+}
+.middle-view{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.middle-text{
+  padding: 0;
+  width: 100%;
+  height: 30rpx;
+  background-color: white;
+  text-align: center;
+  line-height: 30rpx;
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+  margin-top: 10rpx;
+  font-weight: 500;
+}
+.middle-left{
+  float: left;
+}
+.middle-middle{
+  margin: 0 auto;
+}
+.middle-right{
+  float: right;
+}
+.container2{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+.myarticle,
+.searcharticle,
+.declare{
+  width: 95%;
+  height: 100rpx;
+  color: rgb(88, 88, 88);
+  line-height: 100rpx;
+  border-bottom: 1rpx solid gainsboro;
+  font-size: 16px;
+}
+.direction-img{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-top: 30rpx;
+  opacity: 0.8;
+}
